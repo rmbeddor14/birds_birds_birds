@@ -6,7 +6,7 @@ This month I've been in a study group with a bunch of my friends as we work thro
 
 I am getting a great overview of neural networks in general. Even in this short project I was able to apply some of that knowledge. Specifically - 
 - tensor size mismatch - I had a tensor size mismatch because the model required RGB but some of the images are RGBA. To accommodate, I had to reformat the pictures into RGB. This type of matrix multiplication sizing mismatch comes up a lot in my study group! 
-- our study group focuses a lot on gradient descent, but you can see in the bird project code that we actually call pytorch's `torch.no_grad():` . Our bird model is a pre-trained model and we're not going to train or optimize this model further. Therefore, in this case, it doesn't make sense to waste compute cycles on gradient descent if we already have the model trained. 
+- our study group focuses a lot on gradient descent, but you can see in the bird project code that we actually call pytorch's `torch.no_grad():` . Our bird model is a pre-trained model and we're not going to train or optimize this model further (yet!). Therefore, in this case, it doesn't make sense to waste compute cycles on gradient descent if we already have the model trained. 
 
 ### Here's how I did this: 
 
