@@ -21,7 +21,7 @@ I am getting a great overview of neural networks in general. Even in this short 
 [![YouTube Video](https://img.youtube.com/vi/cgtEztkR0NY/0.jpg)](https://youtu.be/cgtEztkR0NY)
 
 
-1. Are you a better bird watcher than this huggingface model? Prove it- reach out and show us which ones are wrong! 
+1. Are you a better bird watcher than this huggingface model? Prove it- reach out and show me which ones huggingface got wrong! 
 
 2. Any ideas for how to fine tune or otherwise improve this model to be better at Florida birds?? 
 
@@ -72,6 +72,6 @@ if image.mode != 'RGB':
 *stuff I want to do to improve this*
 - [ ] feed it videos
 - [ ] how to improve this model so it is better with florida birds? 
-- ✅ give it a drag and drop 
+- [✅] give it a drag and drop 
 interface and deploy it so other people can use it   - Done! Thanks Streamlit
 
