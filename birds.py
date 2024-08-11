@@ -44,8 +44,13 @@ if uploaded_file is not None:
     st.write(f"Predicted Bird Species: **{predicted_class_label}**")
 
 
+#############
 
-### the following was from my init test before I added the streamlit gui
+### the following was from my initial iteration before I added the streamlit gui
+### I commented it out, sorry if it's messy
+### but I wanted to include it so you guys can learn from it!! 
+
+
 # Load and preprocess the image
 # image = Image.open("bird_pics/andrea_pic_1.png")  # Replace with the path to your image
 ## Ensure the image is RGB (3 channels)
