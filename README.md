@@ -68,10 +68,17 @@ if image.mode != 'RGB':
 ```
 - this puts all the images into RGB 
 
+### Things I've Tried 
+- at first I used png
+- then I resized to smaller photos and used jpeg, but did not observe a major difference in performance 
+- I checked the [kaggle](https://www.kaggle.com/datasets/gpiosenka/100-bird-species?resource=download) to make sure these birds are even in here - Roseate Spoonbill is, Swallow-Tail Kite isn't. 
+
+
 ### To Do 
 *stuff I want to do to improve this*
 - [ ] feed it videos
 - [ ] how to improve this model so it is better with florida birds? 
+- [ ] fine-tune or otherwise adjust to include swallow tail kite classification - maybe using  Transfer Learning with a New Head method
 - [x] give it a drag and drop 
 interface and deploy it so other people can use it   - Done! Thanks Streamlit ✅ ✅ 
 
