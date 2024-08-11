@@ -71,7 +71,7 @@ if image.mode != 'RGB':
 ### Things I've Tried 
 - at first I used png
 - then I resized to smaller photos and used jpeg, but did not observe a major difference in performance 
-- I checked the [kaggle](https://www.kaggle.com/datasets/gpiosenka/100-bird-species?resource=download) to make sure these birds are even in here - Roseate Spoonbill is, Swallow-Tail Kite isn't. 
+- I checked the data source ([kaggle](https://www.kaggle.com/datasets/gpiosenka/100-bird-species?resource=download) ) to make sure these birds are even in here - Roseate Spoonbill is, Swallow-Tail Kite isn't. Great Egret isn't? I checked under different names too. A lot of birds missing. 
 
 
 ### To Do 

@@ -25,9 +25,10 @@ uploaded_file = st.file_uploader("Choose a bird image...", type="png")
 if uploaded_file is not None:
     # Load and preprocess the image
     image = Image.open(uploaded_file)
+    image = image.convert('RGB')  # Ensure image has 3 channels
+
     st.image(image, caption='Uploaded Image.', use_column_width=True)
 
-    image = image.convert('RGB')  # Ensure image has 3 channels
     image = preprocess(image).unsqueeze(0)
 
 
