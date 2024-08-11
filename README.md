@@ -1,4 +1,4 @@
-# Birds! 
+# Birds! 🦩
 
 I wanted to create a bird classifier project because I like birds & machine learning! 
 
