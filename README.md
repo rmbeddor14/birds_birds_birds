@@ -26,11 +26,20 @@ Here's your dependencies:
 - torch
 - torchvision
 - Pillow (in the code you'll see it as PIL, but PIL didn't work for me, I had to do Pillow)
+- streamlit
 
 here's that all together
 ```
-pipenv install transformers torch torchvision Pillow 
+pipenv install transformers torch torchvision Pillow streamlit
 ```
+
+### How to run 
+`streamlit run birds.py`
+
+- upload a png file 
+- check out my folder "bird_pics" for some samples
+- you can also switch it to jpg or other file types by modifying the code slightly 
+
 
 ### Things I learned
 - RGB vs RBGA - Andrea's camera is fancy and uses RGBA (alpha channel)
