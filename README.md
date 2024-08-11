@@ -16,7 +16,7 @@ I am getting a great overview of neural networks in general. Even in this short 
 
 ### Demo
 
-- as of 8/10/2024, this project needs some improvement! Check out my demo here : 
+- as of 8/10/2024, this project needs some improvement! Watch my demo by clicking on the image below: 
 
 [![YouTube Video](https://img.youtube.com/vi/cgtEztkR0NY/0.jpg)](https://youtu.be/cgtEztkR0NY)
 
