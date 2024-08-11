@@ -72,6 +72,6 @@ if image.mode != 'RGB':
 *stuff I want to do to improve this*
 - [ ] feed it videos
 - [ ] how to improve this model so it is better with florida birds? 
-- [✅] give it a drag and drop 
+- [x] give it a drag and drop 
 interface and deploy it so other people can use it   - Done! Thanks Streamlit
 
